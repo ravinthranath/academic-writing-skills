@@ -14,10 +14,10 @@ Three skills that help anyone write, edit and review academic work, from pre-uni
 
 ### Claude app (web, desktop or mobile): no coding needed
 
-1. **Download** the zip for your country from the [latest release](https://github.com/ravinthranath/academic-writing-skills/releases/latest):
-   - [academic-writing-uk.zip](https://github.com/ravinthranath/academic-writing-skills/releases/latest/download/academic-writing-uk.zip)
-   - [academic-writing-us.zip](https://github.com/ravinthranath/academic-writing-skills/releases/latest/download/academic-writing-us.zip)
-   - [academic-writing-international.zip](https://github.com/ravinthranath/academic-writing-skills/releases/latest/download/academic-writing-international.zip)
+1. **Download** the zip for your country from the [`dist` folder](https://github.com/ravinthranath/academic-writing-skills/tree/main/dist):
+   - [academic-writing-uk.zip](https://github.com/ravinthranath/academic-writing-skills/raw/main/dist/academic-writing-uk.zip)
+   - [academic-writing-us.zip](https://github.com/ravinthranath/academic-writing-skills/raw/main/dist/academic-writing-us.zip)
+   - [academic-writing-international.zip](https://github.com/ravinthranath/academic-writing-skills/raw/main/dist/academic-writing-international.zip)
 2. In Claude, open **Customize → Skills**, click **+**, choose **Upload a skill**, and select the zip. Don't unzip it first.
 3. Make sure the skill is **switched on**.
 4. Paste your work and ask, for example:
@@ -101,7 +101,8 @@ plugins/academic-writing/
 shared/core.md                       ← workflow shared by all three skills
 shared/references/                   ← reference files copied into every skill
 regions/*.md                         ← country-specific rules and frontmatter
-build.py                             ← rebuilds the skills from shared/ and regions/
+dist/*.zip                           ← ready-to-upload zips for the Claude app
+build.py                             ← rebuilds the skills and zips from shared/ and regions/
 ```
 
 To change something, edit `shared/` or `regions/`, run `python3 build.py`, and commit both the sources and the generated skills. Check with `claude plugin validate .`.

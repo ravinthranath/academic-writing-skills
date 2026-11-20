@@ -10,7 +10,7 @@ Pick the option that matches how you use Claude. Menu names and version numbers 
 - Anthropic's help centre lists skills on Free, Pro, Max, Team and Enterprise plans. If you can't see the option, check your plan's Customize page.
 
 **Install**
-1. Download one zip from the [latest release](https://github.com/ravinthranath/academic-writing-skills/releases/latest): `academic-writing-uk.zip`, `academic-writing-us.zip` or `academic-writing-international.zip`. You can install more than one.
+1. Download one zip from the [`dist` folder](https://github.com/ravinthranath/academic-writing-skills/tree/main/dist): `academic-writing-uk.zip`, `academic-writing-us.zip` or `academic-writing-international.zip`. You can install more than one.
 2. Open **Customize → Skills**, click **+**, choose **Upload a skill**, and select the zip. Upload it as it is; don't unzip it.
 3. Check that the skill is toggled **on**.
 

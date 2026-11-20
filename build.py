@@ -4,6 +4,7 @@
 Each skill must be self-contained when installed, so the shared core and
 reference files are copied into every skill folder. Edit files in shared/
 and regions/, then run:  python3 build.py
+It also writes ready-to-upload zips to dist/.
 """
 import shutil
 from pathlib import Path
@@ -22,4 +23,7 @@ for region in sorted((ROOT / "regions").glob("*.md")):
     (out / "SKILL.md").write_text(text.replace("{{CORE}}", CORE), encoding="utf-8")
     for ref in sorted(REFS.glob("*.md")):
         shutil.copy(ref, out / "references" / ref.name)
-    print(f"built plugins/academic-writing/skills/{name}")
+    zip_path = ROOT / "dist" / f"{name}.zip"
+    zip_path.parent.mkdir(exist_ok=True)
+    shutil.make_archive(str(zip_path.with_suffix("")), "zip", out.parent, name)
+    print(f"built plugins/academic-writing/skills/{name} and dist/{name}.zip")
