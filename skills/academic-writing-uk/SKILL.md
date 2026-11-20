@@ -1,6 +1,6 @@
 ---
 name: academic-writing-uk
-description: Write, edit, review or humanize academic reports, essays, dissertations and coursework for UK universities (British English, Cite Them Right Harvard, UK marking bands), with a University of East London (UEL) profile. Removes AI-writing tells without inventing sources.
+description: Write, edit, review or humanize academic reports, essays, dissertations and coursework for UK universities (British English, Cite Them Right Harvard, UK marking bands). Removes AI-writing tells without inventing sources.
 ---
 
 # Academic writing (UK) + humanizer
@@ -117,18 +117,7 @@ The reference files are written in British English. When you borrow a phrase fro
 - QAA: caution about detection tools.
 - Each university has its own policy and each assessment may set its own permitted level of AI use.
 
-## 7. Institution profile: University of East London (UEL)
-
-Apply when the user says they study at UEL. Based on UEL pages for 2024–25 and 2025–26; policies change yearly, and **the module guide or module leader always has the final word**.
-
-- **Referencing:** Cite Them Right Harvard is UEL's standard for all Schools except Psychology (APA) and Law (Cite Them Right or OSCOLA, per module). UEL Library provides Cite Them Right online and supports Zotero and Mendeley.
-- **Postgraduate assessment size:** coursework is capped at about 6,000 words per 30-credit module; a 60-credit dissertation at about 20,000 words. Individual briefs may set lower limits.
-- **Masters bands:** 70–100 Distinction, 60–69 Merit, 50–59 Pass. UEL uses a categorical marking scale. Failed postgraduate work resubmitted under "improve and resubmit" is capped at 50%.
-- **Generative AI:** students must acknowledge any GenAI use in assessed work and verify all information. UEL's Academic Misconduct Regulations treat use of GenAI beyond what the assessment brief allows, and unacknowledged AI-generated content submitted as your own work, as misconduct. Paraphrasing tools used to disguise copied text are also listed as misconduct.
-- **Report checklist used in UEL academic skills sessions:** avoid chatty or informal words; avoid contractions; use precise language; use hedging for claims; use precise facts and figures; be objective; avoid personal pronouns ("I", "you"); write acronyms in full the first time; label each table and graph with a figure number and comment on it in the text.
-- **Terminology:** taught Master's projects may be called "dissertation" or "independent research project"; follow the module title.
-
-## 8. Example (UK)
+## 7. Example (UK)
 
 Before:
 > In today's rapidly evolving landscape, AI isn't just a tool, it's a game-changer. I think RAG plays a pivotal role in enhancing accuracy, showcasing its potential. Studies show it reduces hallucinations by a lot.

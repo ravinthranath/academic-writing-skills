@@ -4,7 +4,7 @@ Three Agent Skills for Claude that help anyone write, edit and review academic w
 
 | Skill | For | Defaults |
 |---|---|---|
-| [`academic-writing-uk`](skills/academic-writing-uk/SKILL.md) | UK universities (includes a University of East London profile) | British English, Cite Them Right Harvard, UK marking bands (First / 2:1 / Distinction / Merit) |
+| [`academic-writing-uk`](skills/academic-writing-uk/SKILL.md) | UK universities | British English, Cite Them Right Harvard, UK marking bands (First / 2:1 / Distinction / Merit) |
 | [`academic-writing-us`](skills/academic-writing-us/SKILL.md) | US colleges and universities | American English, APA 7 / MLA 9 / Chicago / IEEE, letter grades, APA first-person rules |
 | [`academic-writing-international`](skills/academic-writing-international/SKILL.md) | Everywhere else: Australia, NZ, Canada, Ireland, Europe, South Asia and more | Asks for country and style first; regional profiles; support for writers using English as an additional language |
 
@@ -46,7 +46,7 @@ Each skill folder is self-contained (`SKILL.md` plus `references/`).
 
 ## Example prompts
 
-- "Edit this literature review for my UK MSc report. Cite Them Right Harvard, 2,500 words max."
+- "Edit this literature review for my UK Master's report. Cite Them Right Harvard, 2,500 words max."
 - "Review my APA 7 paper for informal language and AI-sounding phrases. Don't rewrite."
 - "Plan the structure of a business report on remote-work policy, 3,000 words, with an executive summary."
 - "Turn my notes into a Gibbs reflective account. First person is fine."
@@ -69,7 +69,7 @@ To change something, edit `shared/` or `regions/`, run `python3 build.py`, and c
 
 ## Contributing
 
-Corrections and new institution profiles are welcome. Please cite an official source (university library guide, regulation or style manual) in the pull request. Policies change every academic year, so date-stamp institution-specific facts.
+Corrections and improvements are welcome. Please cite an official source (university library guide, regulation or style manual) in the pull request. Policies change every academic year, so date-stamp any policy facts.
 
 ## Sources and credits
 
@@ -77,10 +77,9 @@ Corrections and new institution profiles are welcome. Please cite an official so
 - Phrase categories follow the [Manchester Academic Phrasebank](https://www.phrasebank.manchester.ac.uk/).
 - The reproducibility block is adapted from the [NeurIPS Paper Checklist](https://neurips.cc/public/guides/PaperChecklist).
 - Style guidance: APA Style blog ([first-person myth](https://apastyle.apa.org/blog/first-person-myth)), [IEEE Reference Guide](https://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf), [ACM reference formatting](https://www.acm.org/publications/authors/reference-formatting), and Cite Them Right (Pears & Shields).
-- UEL profile: [UEL Library referencing guides](https://libguides.uel.ac.uk/referencing), [UEL generative AI guidance](https://www.uel.ac.uk/about/governance/generative-ai), [UEL Academic Misconduct Regulations 2025–26](https://www.uel.ac.uk/about/governance/manual-general-regulations/part-7-academic-integrity-academic-misconduct-regulations-2025-26).
 - Research: Kobak et al. (2025) *Science Advances* 11(27); Liang et al. (2024) arXiv:2404.01268; Liang et al. (2023) *Patterns*; Juzek & Ward (2025) COLING; Geng & Trotta (2024); Walters & Wilder (2023) *Scientific Reports*; Linardon et al. (2025) *JMIR Mental Health*; Jisc National Centre for AI guidance on AI detection.
 
-Institution-specific facts were checked against public pages in November 2026 and may change. Always confirm with your module guide.
+Conventions were checked against public sources in November 2026 and may change. Always confirm with your assessment brief and institution.
 
 ## Licence
 
