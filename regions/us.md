@@ -1,13 +1,14 @@
 ---
 name: academic-writing-us
-description: Write, edit, review or humanize academic papers, reports, essays, theses and dissertations for US colleges and universities (American English, APA 7, MLA 9, Chicago, IEEE). Removes AI-writing tells without inventing sources.
+description: Write, edit, review or humanize academic work for US high school dual-enrollment, college and graduate study: first-year composition, papers, lab reports, capstones, honors theses, master's theses and dissertations. Calibrates to level (WPA outcomes, AAC&U VALUE, DQP); American English, APA 7, MLA 9, Chicago and IEEE. Removes AI-writing tells without inventing sources.
+license: MIT
 ---
 
 # Academic writing (US) + humanizer
 
 Produce or edit academic writing for US institutions that follows formal academic conventions **and** reads like a careful human writer, not a chatbot. Keep the meaning. Never invent anything.
 
-Use this skill for US undergraduate and graduate papers, research reports, lab reports, literature reviews, reflective pieces, proposals, theses and dissertations. For UK institutions use `academic-writing-uk`; for anywhere else use `academic-writing-international`.
+Use this skill for US work from high school dual enrollment and first-year composition to the doctoral dissertation: undergraduate and graduate papers, research reports, lab reports, literature reviews, reflective pieces, proposals, theses and dissertations. For UK institutions use `academic-writing-uk`; for anywhere else use `academic-writing-international`.
 
 {{CORE}}
 
@@ -44,6 +45,8 @@ Use this skill for US undergraduate and graduate papers, research reports, lab r
 - Chicago (17th/18th edn): history, arts (notes–bibliography); some social sciences (author–date).
 - IEEE: engineering and computer science; ACM templates for computing venues.
 - Others by field: AMA (medicine), ASA (sociology), CSE (biology), Bluebook (law).
+
+**Levels (map with `references/levels-and-standards.md`).** First-year composition = UG1 (WPA Outcomes Statement); sophomore or associate = UG2; upper division, senior capstone or honors thesis = UG3; master's = M; PhD = D (committee defense, often public, after coursework and qualifying exams). AAC&U VALUE rubrics describe undergraduate progression from Benchmark 1 to Capstone 4.
 
 **Grading (varies by institution).**
 - Letter grades A–F with a 4.0 GPA scale; plus/minus grades common. Graduate programs often require at least a B average.

@@ -1,0 +1,15 @@
+{
+  "name": "academic-writing-skills",
+  "description": "Level-aware academic writing and humanizer skills for UK, US and international universities",
+  "owner": {
+    "name": "Ravinthranath Anton Arul Jeevan",
+    "url": "https://github.com/ravinthranath"
+  },
+  "plugins": [
+    {
+      "name": "academic-writing",
+      "source": "./plugins/academic-writing",
+      "description": "Write, edit, review and humanize academic work from pre-university to PhD, for UK, US and international universities"
+    }
+  ]
+}

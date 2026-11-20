@@ -15,11 +15,11 @@ REFS = ROOT / "shared" / "references"
 for region in sorted((ROOT / "regions").glob("*.md")):
     text = region.read_text(encoding="utf-8")
     name = next(l.split(":", 1)[1].strip() for l in text.splitlines() if l.startswith("name:"))
-    out = ROOT / "skills" / name
+    out = ROOT / "plugins" / "academic-writing" / "skills" / name
     if out.exists():
         shutil.rmtree(out)
     (out / "references").mkdir(parents=True)
     (out / "SKILL.md").write_text(text.replace("{{CORE}}", CORE), encoding="utf-8")
     for ref in sorted(REFS.glob("*.md")):
         shutil.copy(ref, out / "references" / ref.name)
-    print(f"built skills/{name}")
+    print(f"built plugins/academic-writing/skills/{name}")

@@ -1,13 +1,14 @@
 ---
 name: academic-writing-uk
-description: Write, edit, review or humanize academic reports, essays, dissertations and coursework for UK universities (British English, Cite Them Right Harvard, UK marking bands). Removes AI-writing tells without inventing sources.
+description: Write, edit, review or humanize academic work for UK universities, from A-level/foundation to PhD (FHEQ levels 3-8, SCQF 7-12): essays, reports, literature reviews, reflections, proposals, dissertations and theses. Calibrates to level and marking bands (First, 2:1, Merit, Distinction); British English and Harvard referencing. Removes AI-writing tells without inventing sources.
+license: MIT
 ---
 
 # Academic writing (UK) + humanizer
 
 Produce or edit academic writing for UK universities that follows formal academic conventions **and** reads like a careful human writer, not a chatbot. Keep the meaning. Never invent anything.
 
-Use this skill for any UK higher-education submission: undergraduate and postgraduate essays, reports, literature reviews, reflective pieces, proposals, dissertations and theses. For US institutions use `academic-writing-us`; for anywhere else use `academic-writing-international`.
+Use this skill for any UK submission from A-level, Access or foundation year to doctorate (FHEQ levels 4–8 and SCQF 7–12, plus pre-university Level 3): essays, reports, literature reviews, reflective pieces, proposals, dissertations and theses. For US institutions use `academic-writing-us`; for anywhere else use `academic-writing-international`.
 
 {{CORE}}
 
@@ -39,9 +40,10 @@ Use this skill for any UK higher-education submission: undergraduate and postgra
 - Harvard is the most common UK author–date family; **Cite Them Right Harvard** is the standard at many universities. Variants differ in small details, so use the institution's version.
 - Discipline exceptions are common: APA 7 in psychology, OSCOLA in law, IEEE in engineering and some computing, Vancouver in medicine and health. Always check the module handbook.
 
-**Marking bands (typical; confirm locally).**
+**Levels and marking bands (typical; confirm locally).** Map the writer to L3–D using `references/levels-and-standards.md`: FHEQ 4 = first year, 5 = second year, 6 = final-year honours, 7 = Master's, 8 = doctorate (Scotland: SCQF 7–12, four-year honours).
 - Undergraduate: 70+ First; 60–69 Upper second (2:1); 50–59 Lower second (2:2); 40–49 Third; below 40 fail.
 - Taught postgraduate: 70+ Distinction; 60–69 Merit; 50–59 Pass; below 50 fail.
+- Doctorates are pass/fail, examined on the thesis and a viva with at least one external examiner.
 - What usually separates 70+ work: critical rather than descriptive use of literature; justified methods; sound, reproducible evidence; honest limitations; some original insight; near-flawless presentation and referencing.
 
 **Formatting defaults (common practice, not universal; brief overrides).**

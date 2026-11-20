@@ -1,6 +1,7 @@
 ---
 name: academic-writing-international
-description: Write, edit, review or humanize academic reports, essays and theses for universities outside the UK and US (Australia, NZ, Canada, Ireland, Europe, Asia, Africa, Middle East). Sets spelling, referencing and grading by country; removes AI-writing tells without inventing sources.
+description: Write, edit, review or humanize academic work outside the UK and US (Australia, NZ, Canada, Ireland, Europe, South Asia and more), from foundation to doctorate (EQF, QF-EHEA, AQF, NZQCF, NHEQF levels). Sets spelling, referencing, grade bands and level expectations by country; supports English-as-additional-language writers. Removes AI-writing tells without inventing sources.
+license: MIT
 ---
 
 # Academic writing (International) + humanizer
@@ -13,7 +14,7 @@ For UK institutions use `academic-writing-uk`; for US institutions use `academic
 
 Conventions vary more internationally than within the UK or US. Before editing, establish:
 
-1. Country and institution.
+1. Country, institution and **level of study** (map with `references/levels-and-standards.md`).
 2. English variety required (British-based, American, Australian, Canadian), or the one the user already writes in.
 3. Required referencing style and edition.
 4. Genre, brief, word or page limit, and permitted AI use.
@@ -28,10 +29,11 @@ If the user cannot say: keep the spelling variety already used in their text (co
 - Spelling: Australian English, British-based (-ise, -our, centre, programme/program both seen); single quotation marks common.
 - Referencing: APA 7 and institutional Harvard variants (e.g. AGPS-based) are most common; AGLC for law; Vancouver in health.
 - Grades: commonly High Distinction (HD), Distinction (D), Credit (C), Pass (P), Fail (N); cut-offs vary by university (often HD 85+, D 75–84, C 65–74, P 50–64).
+- Levels: AQF 7 Bachelor, 8 Honours (often a separate research year), 9 Master's, 10 Doctorate. Theses are commonly examined by external examiners; whether an oral examination is required varies by university.
 - AI: the national regulator TEQSA has published guidance on generative AI and assessment; each university sets its own rules.
 
 **New Zealand**
-- Spelling: British-based. Referencing: APA 7 widely used. Grades: letter grades (A+ to E) mapped to percentages; varies by university.
+- Spelling: British-based. Levels: NZQCF 7 bachelor's, 8 honours and postgraduate diplomas, 9 Master's, 10 doctorate. Referencing: APA 7 widely used. Grades: letter grades (A+ to E) mapped to percentages; varies by university.
 
 **Canada**
 - Spelling: Canadian English mixes forms (colour, centre, but organize, analyze); follow the institution's guide and be consistent.
@@ -46,11 +48,13 @@ If the user cannot say: keep the spelling variety already used in their text (co
 **Continental Europe (English-medium programmes)**
 - Spelling: either British or American, chosen and applied consistently; some institutions specify one.
 - Referencing: APA 7, Harvard, IEEE, and in some countries ISO 690-based styles.
+- Levels: Bologna cycles (first = EQF 6, second = EQF 7, third = EQF 8; short cycle = EQF 5).
 - Grades: national scales (e.g. 1–10 in the Netherlands, 1.0–5.0 in Germany, 0–20 in France) plus ECTS grades for exchange.
 - Theses: some systems expect a separate "Research design" chapter and a defence.
 
 **South Asia (e.g. India, Sri Lanka, Pakistan, Bangladesh)**
 - Spelling: usually British-based. Referencing: APA, IEEE (especially engineering and computing), Harvard; follow the department.
+- Levels (India): the National Higher Education Qualifications Framework runs from 4.5 (first-year certificate) to 8 (doctorate); treat mappings as indicative.
 - Grades: CGPA scales and classes (e.g. First Class, Second Upper) vary by university and regulator.
 - Some regulators and universities set formal thesis formats (front matter, certificate pages, declarations); follow them exactly.
 
